@@ -1,0 +1,22 @@
+# Blender 4.4.3 MTL File: 'saturn.blend'
+# www.blender.org
+
+newmtl Saturn
+Ns 43.370937
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd 8k_saturn.jpg
+
+newmtl Saturn_Rings
+Ns 78.297272
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd 8k_saturn_ring_alpha.png
+map_d 8k_saturn_ring_alpha.png

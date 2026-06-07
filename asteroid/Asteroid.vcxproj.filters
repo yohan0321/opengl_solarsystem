@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="include\learnopengl\mesh.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnopengl\model.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnopengl\shader.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnopengl\camera.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{f6d07e93-e332-4b73-8173-91b80afcab50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{b156d011-649a-4086-a74b-a679a4948c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{4545d61f-9e7d-4501-b254-59afc1f1268d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\planet.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\planet.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\background.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\background.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\depth.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\depth.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\orbit.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\orbit.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\ring.fs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\ring.vs">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

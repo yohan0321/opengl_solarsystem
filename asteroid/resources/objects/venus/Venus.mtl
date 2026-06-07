@@ -1,0 +1,22 @@
+# Blender 4.4.3 MTL File: 'Venus.blend'
+# www.blender.org
+
+newmtl Venus
+Ns 56.125916
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd 8k_venus_surface.jpg
+
+newmtl Venus_Atmosphere
+Ns 28.591721
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd 4k_venus_atmosphere.jpg
